@@ -1,0 +1,318 @@
+/*Charles Bushnell - Life Coach - Creative Coaching 2014 */
+
+body {
+	background: #000;
+	color: #fff;
+	font-size: 100%;
+	font-family: 'Antic Slab', Georgia, serif;
+	line-height: 1.563;
+}
+
+h1, h2, h3, h4, h5, h6, label, input[type=submit] {
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	line-height: 1.000;
+	text-transform: uppercase;
+	font-style: normal;
+}
+
+h1{
+	font-size: 3.7500em; /* 60pt */
+	font-weight: 900;
+}
+
+h2{
+	font-size: 1.625em; /* 26pt */
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.125em; /* 18pt */
+	font-weight: 700;
+}
+
+p {
+	font-size: 1.000em; /* 16pt */
+	font-weight: normal;
+	font-style: normal;
+}
+
+label {
+	font-size: .8125em; /* 13pt */
+	font-weight: normal;
+	font-style: normal;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	min-width: 320px;
+	position: fixed;
+	height: 72px;
+	width: 100%;
+	background: #000;
+	border-bottom: 1px solid #5983FF;
+	z-index: 99999;
+}
+
+nav {
+	float: right;
+	margin: 20px 60px 0 0;
+}
+
+nav li {
+	display: inline;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 55px;
+	vertical-align: middle;
+}
+
+nav a:hover {
+	background: #5983FF;
+}
+
+section {
+	min-width: 320px;
+	text-align: center;
+	z-index: -99999;
+}
+
+footer {
+	text-align: center;
+	padding: 10px;
+	font-size: .8125em; /* 13pt */
+}
+
+form {
+	width: 320px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+input, textarea {
+	display: block;
+	background: #1D1D1D;
+	border: 0;
+	color: #555252;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-size: .8125em;
+	padding: 10px;
+	border-radius: 2px;
+	margin-bottom: 20px;
+	width: 300px;
+}
+
+input:active, input:focus, textarea:active, textarea:focus {
+	border: 1px solid #5983FF;
+	outline: none;
+}
+
+input[type=submit] {
+	width: 320px;
+	background: #363636;
+	font-weight: 700;
+	color: #000;
+}
+
+input[type=submit]:hover {
+	color: #fff;
+	background: #5983FF
+}
+
+.logo{
+	display: block;
+	height: 72px;
+	;
+}
+
+#feature {
+	padding-top: 30px;
+	background: url(images/beach.jpg) center center / cover;
+	height: 600px;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	display: block;
+
+}
+
+#feature h1 {
+	text-align: center;
+	margin: 120px 0 20px 0;
+}
+
+#feature h3 {
+	text-align: center;
+	margin: 0 0 60px 0;
+}
+
+#feature-box {
+	
+	border: 3px solid #000;
+	margin: auto;
+	min-width: 200px;
+	max-width: 250px;
+	max-height: 250px;
+	background-color: rgba(255,255,255,.1);
+	color: #000;
+	border-bottom: -10px;
+}
+
+#feature-box img{
+	max-width:100%; 
+	max-height:100%;
+}
+.intro-text {
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: .875em;
+	text-align: left;
+	line-height: 2em;
+}
+
+.fmred {
+	color: #5983FF;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-size: 1.125em;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.fmwhite {
+	color: #fff;
+	font-family: 'Maven Pro', Helvetica, sans-serif;
+	font-size: 1.125em;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+#services {
+	margin: 0 25%;
+	display: inline;
+}
+
+#services p {
+	margin-top: 30px;
+	text-align: left;
+	font-size: 1.000em; /* 16px */
+}
+
+#services h3 {
+	border-bottom: 1px solid #363636;
+	padding-bottom: 20px;
+	margin-bottom: -10px;
+}
+
+.white-box {
+	border: 1px solid #363636;
+	display: inline-block;
+	width: 300px;
+	height: 500px;
+	padding: 1%;
+	text-align: center;
+	margin: 30px 10px 0 0;
+	vertical-align: top;
+	
+}
+
+.white-box:hover {
+	border: 1px solid #fff;
+	background-color: rgba(255,255,255,.15);
+}
+
+.white-box:hover div{
+	background: #5983FF;
+	color: #fff;
+}
+
+#featured-work {
+	margin-top: 60px;
+	margin: 30px 25%;
+}
+
+#featured-work div {
+	text-align: center;
+}
+
+.header-bars {
+	border-top: 1px solid #5983FF;
+	border-bottom: 1px solid #5983FF;
+	padding: 10px 0;
+	margin: 60px 0 30px 0;
+}
+
+.icon {
+	margin: auto;
+	background: #363636;
+	height: 60px;
+	width: 60px;
+    border-radius: 100%;
+    text-align: center;
+	margin-bottom: 10px;
+    color: #000;
+	font-size: 2.375em; 
+}
+
+.fa {
+	position: relative;
+	left: 0px;
+	top: 2px;
+}
+
+#featured-work a:hover {
+	background-color: rgba(255,255,255,.15);
+	border: 1px solid #5983FF;
+}
+
+#featured-work div a, #featured-work div span{
+	border: 1px solid #363636;
+	display: inline-block;
+	width: 200px;
+	height: 120px;
+	padding: 1%;
+	text-align: center;
+	margin: 30px 10px 0 0;
+	vertical-align: top;
+}
+#robbins {
+	background: url(images/robbins.jpg) no-repeat center center / cover;
+}
+.fa-map-marker {
+	font-size: 1.5em; /* 24pt */
+	margin: 0 4px 0 0;
+}
+
+.fa-facebook {
+	margin: 0 10px;
+	top: 0;
+}
+
+.fa-twitter {
+	margin-right: 5px;
+	top: 0;
+}
+
+.social:hover {
+	color: #000;
+}
+
+#contact-form {
+	margin: 30px 25% 60px;
+}
+
+.fmred-bkg{
+	background: #5983FF;
+	bottom: 0;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	line-height: 1.5;
+}
