@@ -134,10 +134,11 @@ input[type=submit]:hover {
 
 #feature {
 	padding-top: 30px;
-	background: url(images/beach.jpg) center center / cover;
-	height: 600px;
+	background: url(../images/beach.jpg) center center / cover;
+	height: 350px;
 	border-top: 1px solid #000;
-	border-bottom: 1px solid #000;
+	border-bottom: 250px solid #000;
+
 	display: block;
 
 }
@@ -193,8 +194,9 @@ input[type=submit]:hover {
 }
 
 #services {
-	margin: 0 25%;
+	
 	display: inline;
+
 }
 
 #services p {
@@ -281,7 +283,7 @@ input[type=submit]:hover {
 	vertical-align: top;
 }
 #robbins {
-	background: url(images/robbins.jpg) no-repeat center center / cover;
+	background: url(../images/robbins.jpg) no-repeat center center / cover;
 }
 .fa-map-marker {
 	font-size: 1.5em; /* 24pt */
@@ -299,7 +301,7 @@ input[type=submit]:hover {
 }
 
 .social:hover {
-	color: #000;
+	color: blue;
 }
 
 #contact-form {
@@ -315,4 +317,9 @@ input[type=submit]:hover {
 	right: 0;
 	width: 100%;
 	line-height: 1.5;
+}
+p span{
+	margin-left: 5em;
+	margin-right: 5em;
+
 }
